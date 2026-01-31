@@ -1,0 +1,193 @@
+📖 PANDUAN LENGKAP DEPSTORE - Dari Register Sampai Deploy
+
+=====================================
+STEP 1: BUAT AKUN (5 menit)
+=====================================
+
+1. Buka: https://depstore.dev/register
+2. Isi form:
+   - Username: Pilih nama unik Anda (minimal 3 karakter)
+   - Telegram ID: Copy dari @userinfobot di Telegram
+   - Password: Buat password kuat (minimal 6 karakter)
+   - Confirm Password: Ulangi password Anda
+
+3. Klik tombol "Daftar"
+4. Jika berhasil, akan langsung redirect ke login
+5. Admin akan dapat notifikasi di channel
+
+
+=====================================
+STEP 2: LOGIN (2 menit)
+=====================================
+
+1. Buka: https://depstore.dev/login
+2. Masukkan:
+   - Username: Username Anda saat registrasi
+   - Password: Password Anda
+3. Klik "Login"
+4. Anda akan masuk ke Dashboard
+
+
+=====================================
+STEP 3: SIAPKAN FILE WEBSITE (10-15 menit)
+=====================================
+
+Pilihan A: HTML Files Biasa
+- Kumpulkan semua file HTML, CSS, JS, dan gambar
+- Pastikan ada file "index.html" di folder root
+- Test website di local browser
+
+Pilihan B: ZIP File
+- Buat folder dengan semua file website
+- Klik kanan → Compress/ZIP folder
+- Hasilnya satu file .zip
+
+⚠️ PENTING:
+- Max size: 100MB per file
+- Harus ada index.html
+- Semua path harus relative (bukan absolute)
+
+
+=====================================
+STEP 4: UPLOAD KE DEPSTORE (5 menit)
+=====================================
+
+1. Login ke dashboard (https://depstore.dev/dashboard)
+2. Klik tombol "Deploy Project Baru" atau buka /deploy
+3. Klik "Upload File"
+4. Pilih file HTML atau ZIP Anda
+5. Tunggu selesai (progress bar akan muncul)
+6. Klik "Next"
+
+
+=====================================
+STEP 5: KONFIGURASI DOMAIN (3 menit)
+=====================================
+
+1. Masukkan nama project Anda
+2. Sistem akan auto-generate domain
+3. Format: [nama-project]-[random].depstore.dev
+4. Anda bisa edit nama sesuai keinginan
+5. Pastikan domain unik dan mudah diingat
+6. Klik "Cek Ketersediaan"
+
+
+=====================================
+STEP 6: DEPLOY WEBSITE (1 menit)
+=====================================
+
+1. Review semua setting (nama, domain, file)
+2. Klik tombol "Deploy Sekarang"
+3. Tunggu proses (biasanya 10-30 detik)
+4. Setelah selesai, Anda dapat URL website
+5. Website Anda sudah LIVE! 🎉
+
+
+=====================================
+STEP 7: KELOLA PROJECT (Optional)
+=====================================
+
+Di Dashboard, Anda bisa:
+✓ Lihat semua project yang sudah deploy
+✓ Lihat deployment logs
+✓ Update project (upload ulang + re-deploy)
+✓ Hapus project yang tidak dibutuhkan
+✓ Edit profile (nama, bio, foto)
+✓ Browse project user lain
+
+
+=====================================
+TIPS & TRIK
+=====================================
+
+💡 PERFORMA:
+- Optimalkan gambar (gunakan TinyPNG.com)
+- Minify CSS dan JavaScript
+- Lazy load gambar
+- Test speed di GTmetrix.com
+
+📱 RESPONSIF:
+- Test di mobile, tablet, desktop
+- Gunakan CSS media queries
+- Pastikan font readable di semua ukuran
+
+🔍 SEO:
+- Gunakan domain yang SEO-friendly
+- Isi meta tag di HTML
+- Buat sitemap jika perlu
+- Submit ke Google Search Console
+
+🤝 SHARE:
+- Share URL di media sosial
+- Embed di blog/website lain
+- Bagikan di grup/forum
+- Monitor traffic dengan analytics
+
+
+=====================================
+TROUBLESHOOTING
+=====================================
+
+❌ "Upload gagal"
+→ Check file size (max 100MB)
+→ Pastikan browser support file type Anda
+→ Coba upload ulang
+
+❌ "Deploy error"
+→ Cek file index.html ada di root
+→ Cek semua path relatif (bukan absolute)
+→ Lihat deployment logs untuk detail error
+
+❌ "Website tidak tampil"
+→ Wait 30 detik setelah deploy
+→ Clear browser cache (Ctrl+Shift+Del)
+→ Coba buka di browser berbeda
+
+❌ "Domain tidak tersedia"
+→ Pilih nama lain yang unik
+→ Tambahkan angka atau kata lain
+
+
+=====================================
+PERTANYAAN UMUM
+=====================================
+
+Q: Berapa lama website bisa diakses?
+A: Unlimited! Website Anda akan tetap live
+
+Q: Bisa ganti domain kemudian?
+A: Ya, bisa update project dan ganti domain
+
+Q: Bisa update website?
+A: Ya, upload file baru dan deploy ulang
+
+Q: Ada biaya?
+A: Gratis! Unlimited projects
+
+Q: Berapa max file size?
+A: 100MB per file (bisa ZIP)
+
+Q: Bisa custom domain?
+A: Bisa! Gunakan domain Anda sendiri
+
+
+=====================================
+CONTACT & SUPPORT
+=====================================
+
+📚 Dokumentasi: /docs
+❓ FAQ: /faq
+🔒 Privacy: /privacy
+⚖️ Terms: /terms
+
+Butuh bantuan? Hubungi admin di Telegram
+Channel: @depstore11
+
+
+=====================================
+READY? LET'S DEPLOY! 🚀
+=====================================
+
+Sudah siap? Langsung buka: https://depstore.dev/register
+
+Selamat deploy! Good luck! 🎉
